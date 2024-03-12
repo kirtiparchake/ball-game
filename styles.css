@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #fffefb;
+}
+
+.game-area {
+    position: relative;
+    width: 70%;
+    height: 70%;
+    background-color: #ebc387; /* Set the color of the area */
+    overflow: hidden;
+}
+
+.ball {
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    background-color: #f3f3f1; /* Set the color of the ball */
+    border-radius: 50%;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
